@@ -1,0 +1,82 @@
+body
+{
+    background: url(images/background.jpg) center center fixed;
+    background-size: cover;
+    color:white;
+}
+
+/*Style the title*/
+#header
+{
+    text-align: center;
+    font-size: 7vw;
+    
+}
+
+/*style the lap*/
+#lap
+{
+    text-align: right;
+    font-size: 4vw;
+}
+
+/*style the time*/
+#time
+{
+    text-align: center;
+    font-size: 10vw;
+}
+
+/*buttons*/
+#controlsContainer
+{
+    margin-bottom: 100px;
+}
+
+.control
+{
+    color: white;
+    background-color:darkblue;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 20% 0;
+    font-size:2.5vw;
+    cursor: pointer;
+}
+
+.control:active
+{
+    background-color: white;
+    color: darkblue;
+}
+
+/*laps*/
+#laps
+{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+/*style the lap box*/
+.lap
+{
+    height: 50px;
+    border-bottom: 1px solid azure;
+    margin: 15px;
+}
+
+/*style the lap time title*/
+.laptimetitle
+{
+    font-size: 1.5em;
+    float: left;
+}
+
+/*style the lap time*/
+.laptime
+{
+    font-size: 1.8em;
+    float: right;
+}
